@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "954489089044",
+    "project_id": "expense-todo-tracker",
+    "storage_bucket": "expense-todo-tracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954489089044:android:7169362ff4d7681b1f8b01",
+        "android_client_info": {
+          "package_name": "com.example.tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXniyTQJIlFg1YUyuaR0yc0fkj3GyvqxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
