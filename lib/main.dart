@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:tracker/firebase_options.dart';
 
 import 'app/theme/app_theme.dart';
+import 'features/home/screens/home_screen.dart';
 
 
 Future<void> main() async {
@@ -21,11 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Expense & To-Do Tracker',
       theme: AppTheme.lightTheme,
-      home: const Scaffold(
-        body: Center(
-          child: Text('Firebase Connected!', style: TextStyle(fontSize: 24)),
-        ),
-      ),
+      home: const HomeScreen(),
     );
   }
 }
